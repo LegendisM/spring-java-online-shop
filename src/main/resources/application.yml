@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demis-quiz
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demis-quiz
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
